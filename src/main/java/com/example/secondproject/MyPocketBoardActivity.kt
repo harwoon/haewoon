@@ -4,14 +4,10 @@ import PocketData
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.secondproject.databinding.ActivityMyPocketBoardBinding
-import com.example.secondproject.databinding.ActivityPocketBoardBinding
 
 class MyPocketBoardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
